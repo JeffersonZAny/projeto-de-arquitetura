@@ -1,0 +1,92 @@
+*{
+    font-family: "Inter";
+    margin: 0%;
+}
+#MenuSuperior{
+    background-color: #303030;
+    height: 450px;
+    color: #FFFFFF;
+    
+}
+.t{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 62px;
+    margin-bottom: 40px;
+
+}
+#texto{
+    margin-top: 275px;
+    font-size: 20px;
+}
+#titulo{
+    font-size: 55px;
+}
+#infor{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 70px;
+    margin-left: 105px;
+    margin-top: 40px;
+}
+#info_2{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 150px;
+}
+#imif2{
+    margin-top:200px ;
+    margin-left: 80px;
+}
+#P-inferior{
+    height: 638px;
+    text-align: center;
+    background-color: #303030;
+    color:#FFFFFF;
+    margin-top: 80px;
+}
+#titulo_inferior{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 30%;
+    
+}
+input{
+    margin: 20px;
+    width: 470px;
+    height: 72px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+     
+}
+#nome{
+    margin-top: 15%;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+button{
+    width: 288px;
+    height: 72px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 3%;
+    font-size: 30px;
+}
+button:hover{
+    background-color:#C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #7d5a08;
+    transition-duration: 0.5s;
+}
